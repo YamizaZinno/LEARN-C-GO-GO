@@ -21,7 +21,7 @@ int main() {
     sieve();
     
     int n;
-    if (scanf("%d", &n) != 1) return 0;
+    scanf("%d", &n);
     
     long long sum = 0;
     while (n--) {
